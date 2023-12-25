@@ -2,7 +2,7 @@
 
 This repository contains game projects for testing Adventure Game Studio features.
 
-The `auto-test` directory houses a game specifically made for use in the continuous integration pipeline of the main AGS repository.
+The `auto-test` is a game specifically made for use in the continuous integration pipeline of the main AGS repository.
 
 Additional game projects may be added in the future to test engine features.
 
