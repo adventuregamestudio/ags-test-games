@@ -28,3 +28,10 @@ jobs:
           cd auto-test\\Compiled\\Windows
           .\\auto-test --no-message-box --user-data-dir .
           type agstest.tap
+          
+      - name: upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: binaries
+          path: |
+            auto-test/Compiled/Data/*
