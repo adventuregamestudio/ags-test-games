@@ -47,4 +47,10 @@ struct tap{
   
   /// returns true if any test failed
   import static bool AnyTestFailed();
+  
+  /// set test filename
+  import static void SetTestFilename(String filename);
+  
+  /// add a comment to output
+  import static void Comment(String comment);
 };
