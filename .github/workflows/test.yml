@@ -26,7 +26,7 @@ jobs:
         shell: cmd
         run: |
           cd auto-test\\Compiled\\Windows
-          .\\auto-test --no-message-box  --log-stdout=script:info --user-data-dir .
+          .\\auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
           type agstest.tap
           
       - name: upload artifacts
