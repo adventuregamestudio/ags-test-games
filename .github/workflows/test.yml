@@ -35,3 +35,9 @@ jobs:
           name: binaries
           path: |
             auto-test/Compiled/Data/*
+            
+      - name: upload test log
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-log
+          path: auto-test/Compiled/Windows/agstest.tap
