@@ -27,7 +27,6 @@ jobs:
         run: |
           cd auto-test\\Compiled\\Windows
           .\\auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
-          type agstest.tap
           
       - name: upload artifacts
         uses: actions/upload-artifact@v3
