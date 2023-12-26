@@ -41,3 +41,9 @@ jobs:
         with:
           name: test-log
           path: auto-test/Compiled/Windows/agstest.tap
+
+      - name: Test Summary
+        uses: nikeee/tap-summary@dist
+        with:
+          path: "auto-test/Compiled/Windows/agstest.tap"
+        if: always()
