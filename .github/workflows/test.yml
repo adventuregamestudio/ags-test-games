@@ -46,3 +46,12 @@ jobs:
         with:
           path: "auto-test/Compiled/Windows/agstest.tap"
         if: always()
+        
+      - name: Create release and upload assets
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: auto-test/Compiled/Data/auto-test.ags
+          allowUpdates: true
+          omitBodyDuringUpdate: true
+          token: ${{ secrets.GITHUB_TOKEN }}
