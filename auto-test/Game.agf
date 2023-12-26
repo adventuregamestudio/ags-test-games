@@ -833,6 +833,71 @@
           <Word>rol</Word>
           <WordGroup>30000</WordGroup>
         </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>boat</Word>
+          <WordGroup>1</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>recognized</Word>
+          <WordGroup>2</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>unrecognized</Word>
+          <WordGroup>3</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>text</Word>
+          <WordGroup>4</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>eat</Word>
+          <WordGroup>5</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>take</Word>
+          <WordGroup>6</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>tablet</Word>
+          <WordGroup>7</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>look</Word>
+          <WordGroup>8</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>wall</Word>
+          <WordGroup>9</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>brick</Word>
+          <WordGroup>10</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>throw</Word>
+          <WordGroup>11</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>away</Word>
+          <WordGroup>12</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>kill</Word>
+          <WordGroup>13</WordGroup>
+        </TextParserWord>
       </Words>
     </TextParser>
     <Characters>
@@ -1453,6 +1518,30 @@
           <ScriptFolder Name="tests">
             <SubFolders />
             <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-parser.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>654987384</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-parser.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>654987384</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
