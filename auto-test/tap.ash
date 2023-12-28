@@ -30,6 +30,9 @@ struct tap{
   /// This test will succeed if `got` and `expected` matches. 
   import static void is_int(int got,  int expected, String test_name = 0);
   
+  /// This test will succeed if `got` and `expected` matches. 
+  import static void is_char(int got,  int expected, String test_name = 0);
+  
   /// This test will succeed if `got` and `expected` does not matches.
   import static void isnt_int(int got,  int expected, String test_name = 0);
   
