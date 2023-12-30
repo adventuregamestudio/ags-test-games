@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  build-and-test-windows:
     runs-on: windows-latest
 
     steps:
@@ -29,16 +29,16 @@ jobs:
           .\\auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
           
       - name: upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: binaries
           path: |
-            auto-test/Compiled/Data/*
+            auto-test/Compiled/*/*
             
       - name: upload test log
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: test-log
+          name: test-log-windows
           path: auto-test/Compiled/Windows/agstest.tap
 
       - name: Test Summary
@@ -55,3 +55,31 @@ jobs:
           allowUpdates: true
           omitBodyDuringUpdate: true
           token: ${{ secrets.GITHUB_TOKEN }}
+
+  test-others:
+    needs: build-and-test-windows
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: binaries
+          path: binaries
+          
+      - name: run linux game
+        run: |
+          cd binaries/Linux
+          chmod +x auto-test data/ags*
+          ./auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
+          
+      - name: upload test log
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-log-linux
+          path: binaries/Linux/agstest.tap
+          
+      - name: Test Summary
+        uses: nikeee/tap-summary@dist
+        with:
+          path: "binaries/Linux/agstest.tap"
+        if: always()
