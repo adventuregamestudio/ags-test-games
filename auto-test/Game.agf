@@ -15,7 +15,7 @@
       <AudioIndexer>0</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
-      <BuildTargets>Windows</BuildTargets>
+      <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>None</CompressSpritesType>
