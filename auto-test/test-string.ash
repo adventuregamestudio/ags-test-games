@@ -1,3 +1,3 @@
-// test string module header
+// Test String Module Header
 import void TestString();
 import int GetTestStringCount();

@@ -1,3 +1,3 @@
-// test dictionary module header
+// Test Dictionary Module Header
 import void TestDictionary();
 import int GetTestDictionaryCount();
