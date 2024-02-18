@@ -34,8 +34,8 @@
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
       <ExtendedCompiler>False</ExtendedCompiler>
       <GUIDAsString>{b38fb5a0-fff0-45fe-9701-71453b89bbcb}</GUIDAsString>
-      <GameFileName>auto-test</GameFileName>
-      <GameName>auto-test</GameName>
+      <GameFileName>ags4-auto-test</GameFileName>
+      <GameName>ags4-auto-test</GameName>
       <GameTextEncoding>utf-8</GameTextEncoding>
       <GameTextLanguage>en_US</GameTextLanguage>
       <Genre>Adventure</Genre>
@@ -54,7 +54,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
       <SaveGameFileExtension />
-      <SaveGameFolderName>auto-test</SaveGameFolderName>
+      <SaveGameFolderName>ags4-auto-test</SaveGameFolderName>
       <SaveScreenshots>False</SaveScreenshots>
       <ScaleCharacterSpriteOffsets>False</ScaleCharacterSpriteOffsets>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>

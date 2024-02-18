@@ -14,44 +14,79 @@ jobs:
           curl -Lo atbx.exe https://github.com/ericoporto/agstoolbox/releases/download/0.4.9/atbx.exe
           echo "${{github.workspace}}" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
           
-      - name: install ags
+      - name: Install AGS 3
         run: |
-          atbx install editor -q auto-test/
+          atbx install editor -q ags3/auto-test/
           
-      - name: build game
+      - name: Install AGS 4
         run: |
-          atbx build auto-test/
+          atbx install editor -q ags4/auto-test/
+          
+      - name: Build AGS 3 game
+        run: |
+          atbx build ags3/auto-test/
+          
+      - name: Build AGS 4 game
+        run: |
+          atbx build ags4/auto-test/
         
-      - name: run game
+      - name: Run AGS 3 game
         shell: cmd
         run: |
-          cd auto-test\\Compiled\\Windows
-          .\\auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
+          cd ags3\\auto-test\\Compiled\\Windows
+          .\\ags3-auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
           
-      - name: upload artifacts
+      - name: Run AGS 4 game
+        shell: cmd
+        run: |
+          cd ags4\\auto-test\\Compiled\\Windows
+          .\\ags4-auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
+          
+      - name: Upload Artifacts AGS 3
         uses: actions/upload-artifact@v4
         with:
-          name: binaries
+          name: ags3-binaries
           path: |
-            auto-test/Compiled/*/*
+            ags3/auto-test/Compiled/*/*
             
-      - name: upload test log
+      - name: Upload Artifacts AGS 4
         uses: actions/upload-artifact@v4
         with:
-          name: test-log-windows
-          path: auto-test/Compiled/Windows/agstest.tap
+          name: ags4-binaries
+          path: |
+            ags4/auto-test/Compiled/*/*
+            
+      - name: Upload AGS 3 test log
+        uses: actions/upload-artifact@v4
+        with:
+          name: ags3-test-log-windows
+          path: ags3/auto-test/Compiled/Windows/agstest.tap
+          
+      - name: Upload AGS 4 test log
+        uses: actions/upload-artifact@v4
+        with:
+          name: ags4-test-log-windows
+          path: ags4/auto-test/Compiled/Windows/agstest.tap
 
-      - name: Test Summary
+      - name: Test Summary AGS 3
         uses: nikeee/tap-summary@dist
         with:
-          path: "auto-test/Compiled/Windows/agstest.tap"
+          path: "ags3/auto-test/Compiled/Windows/agstest.tap"
+        if: always()
+        
+      - name: Test Summary AGS 4
+        uses: nikeee/tap-summary@dist
+        with:
+          path: "ags4/auto-test/Compiled/Windows/agstest.tap"
         if: always()
         
       - name: Create release and upload assets
         if: startsWith(github.ref, 'refs/tags/v')
         uses: ncipollo/release-action@v1
         with:
-          artifacts: auto-test/Compiled/Data/auto-test.ags
+          artifacts: |
+            ags3/auto-test/Compiled/Data/ags3-auto-test.ags
+            ags4/auto-test/Compiled/Data/ags4-auto-test.ags
           allowUpdates: true
           omitBodyDuringUpdate: true
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -60,26 +95,50 @@ jobs:
     needs: build-and-test-windows
     runs-on: ubuntu-latest
     steps:
-      - name: Download artifacts
+      - name: Download AGS 3 artifacts
         uses: actions/download-artifact@v4
         with:
-          name: binaries
-          path: binaries
+          name: ags3-binaries
+          path: ags3-binaries
           
-      - name: run linux game
+      - name: Run AGS 3 Linux Game
         run: |
-          cd binaries/Linux
-          chmod +x auto-test data/ags*
-          ./auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
+          cd ags3-binaries/Linux
+          chmod +x ags3-auto-test data/ags*
+          ./ags3-auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
           
-      - name: upload test log
+      - name: Upload Linux AGS 3 Test Log
         uses: actions/upload-artifact@v4
         with:
-          name: test-log-linux
-          path: binaries/Linux/data/agstest.tap
+          name: ags3-test-log-linux
+          path: ags3-binaries/Linux/data/agstest.tap
           
-      - name: Test Summary
+      - name: Linux Test Summary AGS 3
         uses: nikeee/tap-summary@dist
         with:
-          path: "binaries/Linux/data/agstest.tap"
+          path: "ags3-binaries/Linux/data/agstest.tap"
+        if: always()
+
+      - name: Download AGS 4 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ags4-binaries
+          path: ags4-binaries
+          
+      - name: Run AGS 4 Linux Game
+        run: |
+          cd ags4-binaries/Linux
+          chmod +x ags4-auto-test data/ags*
+          ./ags4-auto-test --no-message-box  --log-stdout=script:info,main:info --user-data-dir .
+          
+      - name: Upload Linux AGS 4 Test Log
+        uses: actions/upload-artifact@v4
+        with:
+          name: ags4-test-log-linux
+          path: ags4-binaries/Linux/data/agstest.tap
+          
+      - name: Linux Test Summary AGS 4
+        uses: nikeee/tap-summary@dist
+        with:
+          path: "ags4-binaries/Linux/data/agstest.tap"
         if: always()
