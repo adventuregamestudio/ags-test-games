@@ -48,7 +48,7 @@ jobs:
         run: |
           cd ags4\\auto-test\\Compiled\\Windows
           .\\ags4-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          mv agstest.tap agtest-software.tap
+          mv agstest.tap agstest-software.tap
 
       - name: Run AGS 4 game (Direct3D)
         shell: cmd
