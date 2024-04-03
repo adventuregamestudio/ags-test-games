@@ -149,7 +149,56 @@
     <GUIs>
       <GUIFolder Name="Main">
         <SubFolders />
-        <GUIs />
+        <GUIs>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BlendMode>Normal</BlendMode>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>20</Height>
+              <ID>0</ID>
+              <Left>0</Left>
+              <Name>gGui1</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>20</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>NoAction</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>0</ID>
+                <Image>0</Image>
+                <Left>0</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>0</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+        </GUIs>
       </GUIFolder>
     </GUIs>
     <InventoryItems>
