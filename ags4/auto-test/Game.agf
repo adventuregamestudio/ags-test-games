@@ -489,6 +489,46 @@
           <Word>kill</Word>
           <WordGroup>13</WordGroup>
         </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word xml:space="preserve">red key</Word>
+          <WordGroup>14</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word xml:space="preserve">blue key</Word>
+          <WordGroup>15</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>blue-key</Word>
+          <WordGroup>15</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>stone</Word>
+          <WordGroup>16</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>hammer</Word>
+          <WordGroup>17</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word xml:space="preserve">stone hammer</Word>
+          <WordGroup>18</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>key</Word>
+          <WordGroup>19</WordGroup>
+        </TextParserWord>
+        <TextParserWord>
+          <Type>Normal</Type>
+          <Word>red</Word>
+          <WordGroup>20</WordGroup>
+        </TextParserWord>
       </Words>
     </TextParser>
     <Characters>
