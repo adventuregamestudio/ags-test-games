@@ -32,7 +32,7 @@
       <DialogScriptNarrateFunction IsNull="True" />
       <DialogScriptSayFunction IsNull="True" />
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
-      <ExtendedCompiler>False</ExtendedCompiler>
+      <ExtendedCompiler>True</ExtendedCompiler>
       <FaceDirectionRatio>1</FaceDirectionRatio>
       <GUIDAsString>{b38fb5a0-fff0-45fe-9701-71453b89bbcb}</GUIDAsString>
       <GameFileName>ags4-auto-test</GameFileName>
