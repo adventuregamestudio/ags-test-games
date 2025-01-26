@@ -56,4 +56,10 @@ struct tap{
   
   /// add a comment to output
   import static void Comment(String comment);
+  
+  /// gets the number of tests that are planned
+  import static readonly attribute int PlannedTests;
+  
+  /// gets the number of tests executed so far
+  import static readonly attribute int ExecutedTests;
 };
