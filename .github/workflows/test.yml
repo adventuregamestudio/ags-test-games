@@ -12,7 +12,7 @@ jobs:
 
       - name: gets ags-toolbox
         run: |
-          curl -Lo atbx.exe https://github.com/ericoporto/agstoolbox/releases/download/0.5.2/atbx.exe
+          curl -Lo atbx.exe https://github.com/ericoporto/agstoolbox/releases/download/0.5.6/atbx.exe
           echo "${{github.workspace}}" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Install AGS 3
@@ -25,11 +25,11 @@ jobs:
 
       - name: Build AGS 3 game
         run: |
-          atbx build ags3/auto-test/
+          atbx build --timeout=300 ags3/auto-test/
 
       - name: Build AGS 4 game
         run: |
-          atbx build ags4/auto-test/
+          atbx build --timeout=300 ags4/auto-test/
 
       - name: Run AGS 3 game (Software)
         shell: cmd
