@@ -1,2 +1,5 @@
-// new module header
-import void RunTests();
+
+import void BeginTests();
+import void FinishTests();
+
+import void RunStage1Tests();
