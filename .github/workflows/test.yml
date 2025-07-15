@@ -123,13 +123,18 @@ jobs:
           path: "ags4/auto-test/Compiled/Windows/agstest-software.tap"
         if: always()
 
+      - name: Zip each auto-test
+        run: |
+          powershell Compress-Archive -Path ags3/auto-test/Compiled/Data/* -DestinationPath ags3-auto-test.zip
+          powershell Compress-Archive -Path ags4/auto-test/Compiled/Data/* -DestinationPath ags4-auto-test.zip
+
       - name: Create release and upload assets
         if: startsWith(github.ref, 'refs/tags/v')
         uses: ncipollo/release-action@v1
         with:
           artifacts: |
-            ags3/auto-test/Compiled/Data/ags3-auto-test.ags
-            ags4/auto-test/Compiled/Data/ags4-auto-test.ags
+            ags3-auto-test.zip
+            ags4-auto-test.zip
           allowUpdates: true
           omitBodyDuringUpdate: true
           token: ${{ secrets.GITHUB_TOKEN }}
