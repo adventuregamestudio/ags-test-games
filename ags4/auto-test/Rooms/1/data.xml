@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Room Version="1">
+<Room Version="4.00.00.20">
   <BackgroundAnimationDelay>5</BackgroundAnimationDelay>
   <BackgroundAnimationEnabled>True</BackgroundAnimationEnabled>
   <BackgroundCount>1</BackgroundCount>
   <BottomEdgeY>199</BottomEdgeY>
   <ColorDepth>32</ColorDepth>
   <Description xml:space="preserve">run test</Description>
+  <FaceDirectionRatio>0</FaceDirectionRatio>
   <GameID>397687</GameID>
   <Height>200</Height>
   <LeftEdgeX>0</LeftEdgeX>
@@ -18,6 +19,7 @@
   <TopEdgeY>0</TopEdgeY>
   <Width>320</Width>
   <Interactions>
+    <ScriptModule />
     <Event Index="0" />
     <Event Index="1" />
     <Event Index="2" />
@@ -37,6 +39,7 @@
       <Clickable>True</Clickable>
       <Description />
       <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
       <Image>0</Image>
       <Name>oObjectZero</Name>
       <Properties />
@@ -46,6 +49,7 @@
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -63,6 +67,7 @@
       <Clickable>True</Clickable>
       <Description />
       <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
       <Image>0</Image>
       <Name>oObjectOne</Name>
       <Properties />
@@ -72,6 +77,7 @@
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -89,6 +95,7 @@
       <Clickable>True</Clickable>
       <Description />
       <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
       <Image>0</Image>
       <Name>oObjectTwo</Name>
       <Properties />
@@ -98,6 +105,7 @@
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -116,6 +124,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -134,6 +143,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -152,6 +162,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -170,6 +181,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -188,6 +200,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -206,6 +219,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -224,6 +238,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -242,6 +257,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -260,6 +276,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -278,6 +295,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -296,6 +314,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -314,6 +333,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -332,6 +352,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -350,6 +371,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -368,6 +390,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -386,6 +409,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -404,6 +428,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -422,6 +447,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -440,6 +466,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -458,6 +485,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -476,6 +504,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -494,6 +523,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -512,6 +542,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -530,6 +561,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -548,6 +580,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -566,6 +599,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -584,6 +618,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -602,6 +637,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -620,6 +656,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -638,6 +675,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -656,6 +694,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -674,6 +713,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -692,6 +732,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -710,6 +751,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -728,6 +770,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -746,6 +789,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -764,6 +808,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -782,6 +827,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -800,6 +846,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -818,6 +865,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -836,6 +884,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -854,6 +903,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -872,6 +922,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -890,6 +941,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -908,6 +960,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -926,6 +979,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -944,6 +998,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -962,6 +1017,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -980,6 +1036,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -998,6 +1055,7 @@
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1014,113 +1072,145 @@
   <WalkableAreas>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
     <RoomWalkableArea>
       <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
       <MaxScalingLevel>100</MaxScalingLevel>
       <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
       <ScalingLevel>100</ScalingLevel>
       <UseContinuousScaling>False</UseContinuousScaling>
     </RoomWalkableArea>
@@ -1180,11 +1270,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1194,11 +1286,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1208,11 +1302,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1222,11 +1318,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1236,11 +1334,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1250,11 +1350,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1264,11 +1366,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1278,11 +1382,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1292,11 +1398,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1306,11 +1414,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1320,11 +1430,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1334,11 +1446,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1348,11 +1462,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1362,11 +1478,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1376,11 +1494,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
@@ -1390,11 +1510,13 @@
       <BlueTint>0</BlueTint>
       <GreenTint>0</GreenTint>
       <LightLevel>100</LightLevel>
+      <Properties />
       <RedTint>0</RedTint>
       <TintLuminance>100</TintLuminance>
       <TintSaturation>50</TintSaturation>
       <UseColourTint>False</UseColourTint>
       <Interactions>
+        <ScriptModule />
         <Event Index="0" />
         <Event Index="1" />
         <Event Index="2" />
