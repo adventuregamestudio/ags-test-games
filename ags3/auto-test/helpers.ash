@@ -1,4 +1,4 @@
-// Helper utilities
+// Misc Helper utilities
 
 struct GameTimer
 {
