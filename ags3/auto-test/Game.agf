@@ -2206,6 +2206,41 @@
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="ViewTests">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="9" Width="12" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/ViewTests/frame1.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>12</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="10" Width="12" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/ViewTests/frame1r.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>12</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="Real" AlphaChannel="False">
@@ -4175,6 +4210,46 @@
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>7</ID>
+            <Name>VFLIP</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>9</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>10</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>9</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>10</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -4498,6 +4573,30 @@
                     <Author />
                     <Version />
                     <Key>191553042</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-objects.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1186981526</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-objects.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1186981526</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
