@@ -586,6 +586,56 @@
             <ScriptModule>GlobalScript.asc</ScriptModule>
             <Interactions Version="4.0.0.24" />
           </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>4</ID>
+            <Image>0</Image>
+            <Name>iInteractive</Name>
+            <OnAnyClick>iInteractive_AnyClick</OnAnyClick>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <Interactions Version="4.0.0.24">
+              <Event Index="1" Name="Look_at" UID="Curs0002">iInteractive_Look</Event>
+              <Event Index="2" Name="Interact" UID="Curs0003">iInteractive_Interact</Event>
+              <Event Index="3" Name="Talk_to" UID="Curs0004">iInteractive_Talk</Event>
+              <Event Index="4" Name="Use_inv" UID="Curs0005">iInteractive_UseInv</Event>
+              <Event Index="5" Name="Pick_up" UID="Curs0006">iInteractive_PickUp</Event>
+              <Event Index="8" Name="Usermode1" UID="Curs0009">iInteractive_Mode8</Event>
+              <Event Index="9" Name="Usermode2" UID="Curs0010">iInteractive_Mode9</Event>
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>5</ID>
+            <Image>0</Image>
+            <Name>iAnyClicker</Name>
+            <OnAnyClick>iAnyClicker_AnyClick</OnAnyClick>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <Interactions Version="4.0.0.24" />
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>6</ID>
+            <Image>0</Image>
+            <Name>iNoHandlers</Name>
+            <OnAnyClick />
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <Interactions Version="4.0.0.24" />
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -1149,6 +1199,137 @@
             <Visible>True</Visible>
             <Interactions Version="4.0.0.24" />
           </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlendMode>Normal</BlendMode>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <Enabled>True</Enabled>
+            <ID>7</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <OnAnyClick>cInteractive_AnyClick</OnAnyClick>
+            <OnFrameEvent />
+            <Properties />
+            <RealName xml:space="preserve">New character</RealName>
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <ScriptName>cInteractive</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>0xFFFC5454</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <Transparency>0</Transparency>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <TurnWhenFacing>True</TurnWhenFacing>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Visible>True</Visible>
+            <Interactions Version="4.0.0.24">
+              <Event Index="1" Name="Look_at" UID="Curs0002">cInteractive_Look</Event>
+              <Event Index="2" Name="Interact" UID="Curs0003">cInteractive_Interact</Event>
+              <Event Index="3" Name="Talk_to" UID="Curs0004">cInteractive_Talk</Event>
+              <Event Index="4" Name="Use_inv" UID="Curs0005">cInteractive_UseInv</Event>
+              <Event Index="5" Name="Pick_up" UID="Curs0006">cInteractive_PickUp</Event>
+              <Event Index="8" Name="Usermode1" UID="Curs0009">cInteractive_Mode8</Event>
+              <Event Index="9" Name="Usermode2" UID="Curs0010">cInteractive_Mode9</Event>
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlendMode>Normal</BlendMode>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <Enabled>True</Enabled>
+            <ID>8</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <OnAnyClick>cAnyClicker_AnyClick</OnAnyClick>
+            <OnFrameEvent />
+            <Properties />
+            <RealName xml:space="preserve">New character</RealName>
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <ScriptName>cAnyClicker</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>0xFFFC5454</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <Transparency>0</Transparency>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <TurnWhenFacing>True</TurnWhenFacing>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Visible>True</Visible>
+            <Interactions Version="4.0.0.24" />
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlendMode>Normal</BlendMode>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <Enabled>True</Enabled>
+            <ID>9</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <OnAnyClick />
+            <OnFrameEvent />
+            <Properties />
+            <RealName xml:space="preserve">New character</RealName>
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <ScriptName>cNoHandlers</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>0xFFFC5454</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <Transparency>0</Transparency>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <TurnWhenFacing>True</TurnWhenFacing>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Visible>True</Visible>
+            <Interactions Version="4.0.0.24" />
+          </Character>
         </Characters>
       </CharacterFolder>
     </Characters>
@@ -1667,7 +1848,29 @@
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>LastInteraction</Name>
+          <Type>String</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>LastAnyClickInteraction</Name>
+          <Type>String</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>LastUnhandledEvent</Name>
+          <Type>String</Type>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -5003,6 +5206,30 @@
                     <Author />
                     <Version />
                     <Key>84075783</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-interactions.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1532515780</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-interactions.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1532515780</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
