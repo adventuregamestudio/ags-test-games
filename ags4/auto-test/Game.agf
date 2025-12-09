@@ -1337,7 +1337,134 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs />
+        <Dialogs>
+          <Dialog>
+            <ID>0</ID>
+            <Name>dDialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+return
+@2
+return
+@3
+return
+@4
+return
+@5
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 1</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 2</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 3</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 4</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 5</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dDialogWithParser</Name>
+            <ShowTextParser>True</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+return
+@2
+return
+@3
+return
+@4
+return
+@5
+return
+@6
+return
+@7
+return
+@8
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 1</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 2</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 3</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 4</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 5</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>6</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 6</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>7</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 7</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>8</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">option 8</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+        </Dialogs>
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -5086,6 +5213,30 @@
                     <Author />
                     <Version />
                     <Key>196241461</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-dialogs-props.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1040468283</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-dialogs-props.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1040468283</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
