@@ -26,10 +26,12 @@ jobs:
       - name: Build AGS 3 game
         run: |
           atbx build --timeout=300 ags3/auto-test/
+          Add-Content -Path .\\ags3\\auto-test\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg)
 
       - name: Build AGS 4 game
         run: |
           atbx build --timeout=300 ags4/auto-test/
+          Add-Content -Path .\\ags4\\auto-test\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags4\\auto-test\\acsetup.cfg)
 
       - name: Run AGS 3 game (Software)
         shell: cmd
