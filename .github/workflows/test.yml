@@ -15,15 +15,44 @@ jobs:
           curl -Lo atbx.exe https://github.com/ericoporto/agstoolbox/releases/download/0.5.7/atbx.exe
           echo "${{github.workspace}}" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
-      - name: Install AGS 3
+     #- name: Build AGS 3 game
+     #  run: |
+     #    atbx build --timeout=300 ags3/auto-test/
+     #    Add-Content -Path .\\ags3\\auto-test\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg)
+     
+     #
+     # For now, do keep only the few previous versions of AGS that receive regular updates or patches
+     #
+
+      - name: Install AGS 3.6.1
+        run: |
+          atbx install editor -q ags3/auto-test-3.6.1/
+
+      - name: Install AGS 3.6.2
+        run: |
+          atbx install editor -q ags3/auto-test-3.6.2/
+
+      # Install the latest found 3.*.*
+      - name: Install latest AGS 3
         run: |
           atbx install editor -q ags3/auto-test/
 
+      # Install the latest found 4.0.*
       - name: Install AGS 4
         run: |
           atbx install editor -q ags4/auto-test/
 
-      - name: Build AGS 3 game
+      - name: Build AGS 3.6.1 game
+        run: |
+          atbx build --timeout=300 ags3/auto-test-3.6.1/
+          Add-Content -Path .\\ags3\\auto-test-3.6.1\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.1\\acsetup.cfg)
+
+      - name: Build AGS 3.6.2 game
+        run: |
+          atbx build --timeout=300 ags3/auto-test-3.6.2/
+          Add-Content -Path .\\ags3\\auto-test-3.6.2\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.2\\acsetup.cfg)
+
+      - name: Build latest AGS 3.6.* game
         run: |
           atbx build --timeout=300 ags3/auto-test/
           Add-Content -Path .\\ags3\\auto-test\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg)
@@ -38,7 +67,7 @@ jobs:
         run: |
           cd ags3\\auto-test\\Compiled\\Windows
           .\\ags3-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          mv agstest.tap agstest-software.tap
+          if exist agstest.tap mv agstest.tap agstest-software.tap
 
       - name: Run AGS 3 game (Direct3D)
         shell: cmd
@@ -51,7 +80,7 @@ jobs:
         run: |
           cd ags4\\auto-test\\Compiled\\Windows
           .\\ags4-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          mv agstest.tap agstest-software.tap
+          if exist agstest.tap mv agstest.tap agstest-software.tap
 
       - name: Run AGS 4 game (Direct3D)
         shell: cmd
@@ -128,6 +157,8 @@ jobs:
       - name: Zip each auto-test
         run: |
           powershell Compress-Archive -Path ags3/auto-test/Compiled/Data/* -DestinationPath ags3-auto-test.zip
+          powershell Compress-Archive -Path ags3/auto-test-3.6.1/Compiled/Data/* -DestinationPath ags3-auto-test-3.6.1.zip
+          powershell Compress-Archive -Path ags3/auto-test-3.6.2/Compiled/Data/* -DestinationPath ags3-auto-test-3.6.2.zip
           powershell Compress-Archive -Path ags4/auto-test/Compiled/Data/* -DestinationPath ags4-auto-test.zip
 
       - name: Create release and upload assets
@@ -136,6 +167,8 @@ jobs:
         with:
           artifacts: |
             ags3-auto-test.zip
+            ags3-auto-test-3.6.1.zip
+            ags3-auto-test-3.6.2.zip
             ags4-auto-test.zip
           allowUpdates: true
           omitBodyDuringUpdate: true
@@ -156,7 +189,7 @@ jobs:
           cd ags3-binaries/Linux
           chmod +x ags3-auto-test data/ags*
           ./ags3-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          mv data/agstest.tap agstest-software.tap
+          if exist data/agstest.tap mv data/agstest.tap agstest-software.tap
 
       - name: Upload Linux AGS 3 Test Log
         uses: actions/upload-artifact@v4
@@ -184,7 +217,7 @@ jobs:
           cd ags4-binaries/Linux
           chmod +x ags4-auto-test data/ags*
           ./ags4-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          mv data/agstest.tap agstest-software.tap
+          if exist data/agstest.tap mv data/agstest.tap agstest-software.tap
 
       - name: Upload Linux AGS 4 Test Log
         uses: actions/upload-artifact@v4
