@@ -2607,6 +2607,299 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="GUITests">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="11" Width="80" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/button-shot.png</FileName>
+                  <OffsetX>3</OffsetX>
+                  <OffsetY>3</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="12" Width="80" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/button-shot.png</FileName>
+                  <OffsetX>3</OffsetX>
+                  <OffsetY>26</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="13" Width="80" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/button-shot.png</FileName>
+                  <OffsetX>3</OffsetX>
+                  <OffsetY>49</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="14" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/button-shot.png</FileName>
+                  <OffsetX>3</OffsetX>
+                  <OffsetY>72</OffsetY>
+                  <ImportHeight>19</ImportHeight>
+                  <ImportWidth>71</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="15" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/button-shot.png</FileName>
+                  <OffsetX>3</OffsetX>
+                  <OffsetY>96</OffsetY>
+                  <ImportHeight>19</ImportHeight>
+                  <ImportWidth>71</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="16" Width="100" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/label-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="17" Width="100" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/label-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>11</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="18" Width="100" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/label-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>22</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="19" Width="100" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/label-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>33</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="20" Width="120" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/listbox-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>120</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="21" Width="120" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/listbox-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>83</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>120</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="22" Width="40" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/slider-shot.png</FileName>
+                  <OffsetX>5</OffsetX>
+                  <OffsetY>2</OffsetY>
+                  <ImportHeight>5</ImportHeight>
+                  <ImportWidth>40</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="23" Width="40" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/slider-shot.png</FileName>
+                  <OffsetX>5</OffsetX>
+                  <OffsetY>13</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>40</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="24" Width="102" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/slider-shot.png</FileName>
+                  <OffsetX>3</OffsetX>
+                  <OffsetY>36</OffsetY>
+                  <ImportHeight>13</ImportHeight>
+                  <ImportWidth>102</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="25" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/GUITests/button_medium_normal.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>19</ImportHeight>
+                  <ImportWidth>71</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="26" Width="140" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Sprites/GUITests/textbox-shot.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>14</ImportHeight>
+                  <ImportWidth>140</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="27" Width="99" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/GUITests/slider_bar.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>4</ImportHeight>
+                  <ImportWidth>99</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="28" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/GUITests/slider_handle.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>11</ImportHeight>
+                  <ImportWidth>9</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="Real" AlphaChannel="False">
@@ -4940,6 +5233,30 @@ stop
                     <Author />
                     <Version />
                     <Key>1917670377</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-gui-looks.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>2035610015</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-gui-looks.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>2035610015</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
