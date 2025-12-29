@@ -46,29 +46,33 @@ jobs:
         run: |
           atbx build --timeout=300 ags3/auto-test-3.6.1/
           Add-Content -Path .\\ags3\\auto-test-3.6.1\\Compiled\\Data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.1\\acsetup.cfg)
-          Add-Content -Path .\\ags3\\auto-test-3.6.1\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.1\\acsetup.cfg)
           Add-Content -Path .\\ags3\\auto-test-3.6.1\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.1\\acsetup.cfg)
+          if (Test-Path -Path .\\ags3\\auto-test-3.6.1\\Compiled\\Linux\\data\\acsetup.cfg)
+            { Add-Content -Path .\\ags3\\auto-test-3.6.1\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.1\\acsetup.cfg) }
 
       - name: Build AGS 3.6.2 game
         run: |
           atbx build --timeout=300 ags3/auto-test-3.6.2/
           Add-Content -Path .\\ags3\\auto-test-3.6.2\\Compiled\\Data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.2\\acsetup.cfg)
-          Add-Content -Path .\\ags3\\auto-test-3.6.2\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.2\\acsetup.cfg)
           Add-Content -Path .\\ags3\\auto-test-3.6.2\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.2\\acsetup.cfg)
+          if (Test-Path -Path .\\ags3\\auto-test-3.6.2\\Compiled\\Linux\\data\\acsetup.cfg)
+            { Add-Content -Path .\\ags3\\auto-test-3.6.2\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test-3.6.2\\acsetup.cfg) }
 
       - name: Build latest AGS 3.6.* game
         run: |
           atbx build --timeout=300 ags3/auto-test/
           Add-Content -Path .\\ags3\\auto-test\\Compiled\\Data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg)
-          Add-Content -Path .\\ags3\\auto-test\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg)
           Add-Content -Path .\\ags3\\auto-test\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg)
+          if (Test-Path -Path .\\ags3\\auto-test\\Compiled\\Linux\\data\\acsetup.cfg)
+            { Add-Content -Path .\\ags3\\auto-test\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags3\\auto-test\\acsetup.cfg) }
 
       - name: Build AGS 4 game
         run: |
           atbx build --timeout=300 ags4/auto-test/
           Add-Content -Path .\\ags4\\auto-test\\Compiled\\Data\\acsetup.cfg -Value (Get-Content -Path .\\ags4\\auto-test\\acsetup.cfg)
-          Add-Content -Path .\\ags4\\auto-test\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags4\\auto-test\\acsetup.cfg)
           Add-Content -Path .\\ags4\\auto-test\\Compiled\\Windows\\acsetup.cfg -Value (Get-Content -Path .\\ags4\\auto-test\\acsetup.cfg)
+          if (Test-Path -Path .\\ags3\\auto-test\\Compiled\\Linux\\data\\acsetup.cfg)
+            { Add-Content -Path .\\ags4\\auto-test\\Compiled\\Linux\\data\\acsetup.cfg -Value (Get-Content -Path .\\ags4\\auto-test\\acsetup.cfg) }
 
       - name: Run AGS 3 game (Software)
         shell: cmd
