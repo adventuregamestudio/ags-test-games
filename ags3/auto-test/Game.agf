@@ -35,7 +35,7 @@
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
       <EnforceNewAudio>True</EnforceNewAudio>
       <EnforceNewStrings>True</EnforceNewStrings>
-      <EnforceObjectBasedScript>True</EnforceObjectBasedScript>
+      <EnforceObjectBasedScript>False</EnforceObjectBasedScript>
       <GUIAlphaStyle>MultiplyTranslucenceSrcBlend</GUIAlphaStyle>
       <GUIDAsString>{b38fb5a0-fff0-45fe-9701-71453b89bbcb}</GUIDAsString>
       <GUIHandleOnlyLeftMouseButton>False</GUIHandleOnlyLeftMouseButton>
@@ -69,7 +69,7 @@
       <ScaleCharacterSpriteOffsets>False</ScaleCharacterSpriteOffsets>
       <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>
-      <ScriptCompatLevel>Highest</ScriptCompatLevel>
+      <ScriptCompatLevel>v321</ScriptCompatLevel>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
       <SpeechStyle>Lucasarts</SpeechStyle>
@@ -2922,6 +2922,43 @@ stop
                   <ImportHeight>19</ImportHeight>
                   <ImportWidth>71</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="OverlayTests">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="31" Width="100" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/OverlayTests/textoverlay.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="32" Width="100" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/OverlayTests/textoverlay2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
