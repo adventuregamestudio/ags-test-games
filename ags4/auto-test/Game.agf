@@ -2263,6 +2263,43 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="OverlayTests">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="9" Width="100" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/OverlayTests/textoverlay.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+              <Sprite Slot="10" Width="100" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/OverlayTests/textoverlay2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="Real" AlphaChannel="False">
