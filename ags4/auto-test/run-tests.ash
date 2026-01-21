@@ -11,5 +11,7 @@ import void RunStage1Tests();
 // value, or -1 if all tests are completed.
 // Even counter values (0 and onward) are case runs, and odd values are post-case checks.
 // So total counter increments = number of test cases * 2.
+#define STAGE1_DELAYED_GROUP_INTERACTIONS 0
+#define STAGE1_DELAYED_GROUP_GUILOOKS     1
 import int  RunStage1DelayedTests(int test_group, int test_counter);
 
