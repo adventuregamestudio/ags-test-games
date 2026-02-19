@@ -137,7 +137,7 @@
     </LipSync>
     <PropertyDefinitions />
     <Plugins />
-    <Rooms Version="4.0.0.24">
+    <Rooms Version="4.0.0.26">
       <UnloadedRoomFolder Name="Main">
         <SubFolders />
         <UnloadedRooms>
@@ -1034,8 +1034,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1075,8 +1077,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1116,8 +1120,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1157,8 +1163,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1198,8 +1206,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1239,8 +1249,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1280,8 +1292,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1321,8 +1335,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1370,8 +1386,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
@@ -1411,8 +1429,10 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
+            <Baseline>0</Baseline>
             <BlendMode>Normal</BlendMode>
             <BlinkingView>0</BlinkingView>
+            <BlockingRectangle>0,0,0,0</BlockingRectangle>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <Enabled>True</Enabled>
