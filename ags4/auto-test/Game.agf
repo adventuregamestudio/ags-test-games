@@ -69,6 +69,9 @@
       <SplitResources>0</SplitResources>
       <TextWindowGUI>0</TextWindowGUI>
       <ThoughtGUI>0</ThoughtGUI>
+      <TranslationExcludeFunctionCall />
+      <TranslationExcludeScriptPrefix />
+      <TranslationIncludeScriptPrefix />
       <TurnBeforeFacing>False</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
       <UniqueID>397687</UniqueID>
@@ -212,6 +215,7 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0xFF000000</TextColor>
+                <TextOutlineColor>0</TextOutlineColor>
                 <Top>0</Top>
                 <Translated>True</Translated>
                 <Transparency>0</Transparency>
@@ -282,6 +286,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0xFF000000</TextColor>
+                <TextOutlineColor>0</TextOutlineColor>
                 <Top>8</Top>
                 <Translated>True</Translated>
                 <Transparency>0</Transparency>
@@ -311,6 +316,7 @@
                 <Text xml:space="preserve">New Label</Text>
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>0xFF000000</TextColor>
+                <TextOutlineColor>0</TextOutlineColor>
                 <Top>38</Top>
                 <Translated>True</Translated>
                 <Transparency>0</Transparency>
@@ -340,6 +346,7 @@
                 <Text />
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>0xFF000000</TextColor>
+                <TextOutlineColor>0</TextOutlineColor>
                 <Top>58</Top>
                 <Translated>True</Translated>
                 <Transparency>0</Transparency>
@@ -371,6 +378,7 @@
                 <SolidBackground>False</SolidBackground>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>0xFF000000</TextColor>
+                <TextOutlineColor>0</TextOutlineColor>
                 <Top>115</Top>
                 <Translated>True</Translated>
                 <Transparency>0</Transparency>
@@ -6426,6 +6434,7 @@ stop
   <Component Name="SpriteManager" />
   <Component Name="TextParser" />
   <Component Name="LipSync" />
+  <Component Name="CustomProperties" />
   <Component Name="GUIs" />
   <Component Name="Inventory" />
   <Component Name="Dialogs" />
