@@ -19,3 +19,5 @@ struct TestHelpers
   /// Necessary for the test which require cursor hovering certain elements
   import static void LockCursorAt(int x, int y);
 };
+
+import String SafeGetItemAt(this ListBox*, int index);

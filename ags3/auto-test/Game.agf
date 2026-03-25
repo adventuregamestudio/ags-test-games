@@ -19,7 +19,7 @@
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>Deflate</CompressSpritesType>
-      <CustomDataDir IsNull="True" />
+      <CustomDataDir>CustomData</CustomDataDir>
       <CustomResolution>320,200</CustomResolution>
       <DebugMode>True</DebugMode>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
@@ -6181,6 +6181,30 @@ stop
                     <Author />
                     <Version />
                     <Key>1416748471</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-filedir.ash</FileName>
+                    <Name>test-filedir</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1638681543</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-filedir.asc</FileName>
+                    <Name>test-filedir</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1638681543</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
