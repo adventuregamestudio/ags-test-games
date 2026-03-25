@@ -2109,6 +2109,41 @@ stop
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dDialogStop</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+stop
+@2
+stop
+@3
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>STOP</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>STOP</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>STOP</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
@@ -6218,6 +6253,30 @@ stop
                     <Author />
                     <Version />
                     <Key>1136985286</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-dialog-customoptions.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1385062614</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-dialog-customoptions.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1385062614</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
