@@ -19,7 +19,7 @@
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>Deflate</CompressSpritesType>
       <CursorEventIndexer>10</CursorEventIndexer>
-      <CustomDataDir IsNull="True" />
+      <CustomDataDir>CustomData</CustomDataDir>
       <CustomResolution>320,200</CustomResolution>
       <DebugMode>True</DebugMode>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
@@ -6704,6 +6704,30 @@ stop
                     <Author />
                     <Version />
                     <Key>1416748471</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-filedir.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1440061381</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-filedir.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1440061381</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
