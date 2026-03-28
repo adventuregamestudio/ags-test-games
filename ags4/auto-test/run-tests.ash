@@ -13,5 +13,6 @@ import void RunStage1Tests();
 // So total counter increments = number of test cases * 2.
 #define STAGE1_DELAYED_GROUP_INTERACTIONS 0
 #define STAGE1_DELAYED_GROUP_GUILOOKS     1
+#define STAGE1_DELAYED_GROUP_DIALOGCUSTOMOPTIONS 2
 import int  RunStage1DelayedTests(int test_group, int test_counter);
 
