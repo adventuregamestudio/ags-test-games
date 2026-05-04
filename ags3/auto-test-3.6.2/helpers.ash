@@ -20,4 +20,5 @@ struct TestHelpers
   import static void LockCursorAt(int x, int y);
 };
 
+import void LoseAllInventory(this Character*);
 import String SafeGetItemAt(this ListBox*, int index);
