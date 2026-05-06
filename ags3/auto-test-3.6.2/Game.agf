@@ -2056,6 +2056,116 @@ stop
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dDialogAutoFlow1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 1, "Dialog Auto Flow: step 1");
+option-off 1
+option-on 2
+goto-dialog 4
+@2
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 3, "Dialog Auto Flow: step 3");
+option-off 2
+option-on 3
+  dDialogAutoFlow2.Start();
+return
+@3
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 5, "Dialog Auto Flow: step 5");
+  return 4;
+@4
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">goto dialog2</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text xml:space="preserve">dialog2 start</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text xml:space="preserve">goto using return</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text xml:space="preserve">emergency stop</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dDialogAutoFlow2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 2, "Dialog Auto Flow: step 1");
+option-off 1
+option-on 2
+goto-previous
+@2
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 4, "Dialog Auto Flow: step 1");
+option-off 2
+option-on 3
+  return RUN_DIALOG_GOTO_PREVIOUS;
+@3
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 6, "Dialog Auto Flow: step 6");
+option-off 3
+option-on 4
+  Dialog.Stop();
+return
+@4
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">goto previous</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text xml:space="preserve">goto previous using return</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text>dialog.stop</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text xml:space="preserve">emergency stop</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
@@ -2515,6 +2625,13 @@ stop
           <DefaultValue />
           <Name>LastUnhandledEvent</Name>
           <Type>String</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>0</DefaultValue>
+          <Name>DialogFlowTestStep</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -6442,6 +6559,30 @@ stop
                     <Author />
                     <Version />
                     <Key>1436465914</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-dialogautoflow.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1014915462</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-dialogautoflow.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1014915462</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
