@@ -730,7 +730,7 @@
               <ID>1</ID>
               <Left>0</Left>
               <Name>gGui2</Name>
-              <OnClick />
+              <OnClick>gGui2_OnClick</OnClick>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
@@ -755,7 +755,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button2</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>Button2_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
@@ -815,7 +815,7 @@
                 <Left>6</Left>
                 <Locked>False</Locked>
                 <Name>ListBox1</Name>
-                <OnSelectionChanged />
+                <OnSelectionChanged>ListBox1_OnSelectionChanged</OnSelectionChanged>
                 <SelectedBackgroundColor>16</SelectedBackgroundColor>
                 <SelectedTextColor>7</SelectedTextColor>
                 <ShowBorder>True</ShowBorder>
@@ -841,7 +841,7 @@
                 <MaxValue>10</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>Slider1</Name>
-                <OnChange />
+                <OnChange>Slider1_OnChange</OnChange>
                 <Top>74</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
