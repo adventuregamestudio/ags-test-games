@@ -33,6 +33,7 @@
       <DialogScriptNarrateFunction IsNull="True" />
       <DialogScriptSayFunction IsNull="True" />
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
+      <DisplaySingleDialogOption>False</DisplaySingleDialogOption>
       <EnforceNewAudio>True</EnforceNewAudio>
       <EnforceNewStrings>True</EnforceNewStrings>
       <EnforceObjectBasedScript>False</EnforceObjectBasedScript>
