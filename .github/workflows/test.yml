@@ -2,10 +2,15 @@ name: CI
 
 on: [push, pull_request, workflow_dispatch]
 
+permissions:
+  contents: read
+
 jobs:
   build-and-test-windows:
     runs-on: windows-latest
     timeout-minutes: 10
+    permissions:
+      contents: write # FIX-ME: I need this for the release, lets break it to separate actions later
 
     steps:
       - uses: actions/checkout@v4
@@ -131,7 +136,7 @@ jobs:
         run: echo '### Test Summary AGS 3 (Direct3D)' >> $GITHUB_STEP_SUMMARY
 
       - name: Test Summary AGS 3 (Direct3D)
-        uses: nikeee/tap-summary@dist
+        uses: nikeee/tap-summary@0c03eb5366ebea62488db9c55cb0ce0e3876f086 #dist
         with:
           path: "ags3/auto-test/Compiled/Windows/agstest.tap"
         if: always()
@@ -141,7 +146,7 @@ jobs:
         run: echo '### Test Summary AGS 3 (Software)' >> $GITHUB_STEP_SUMMARY
 
       - name: Test Summary AGS 3 (Software)
-        uses: nikeee/tap-summary@dist
+        uses: nikeee/tap-summary@0c03eb5366ebea62488db9c55cb0ce0e3876f086 #dist
         with:
           path: "ags3/auto-test/Compiled/Windows/agstest-software.tap"
         if: always()
@@ -151,7 +156,7 @@ jobs:
         run: echo '### Test Summary AGS 4 (Direct3D)' >> $GITHUB_STEP_SUMMARY
 
       - name: Test Summary AGS 4 (Direct3D)
-        uses: nikeee/tap-summary@dist
+        uses: nikeee/tap-summary@0c03eb5366ebea62488db9c55cb0ce0e3876f086 #dist
         with:
           path: "ags4/auto-test/Compiled/Windows/agstest.tap"
         if: always()
@@ -161,7 +166,7 @@ jobs:
         run: echo '### Test Summary AGS 4 (Software)' >> $GITHUB_STEP_SUMMARY
 
       - name: Test Summary AGS 4 (Software)
-        uses: nikeee/tap-summary@dist
+        uses: nikeee/tap-summary@0c03eb5366ebea62488db9c55cb0ce0e3876f086 #dist
         with:
           path: "ags4/auto-test/Compiled/Windows/agstest-software.tap"
         if: always()
@@ -189,6 +194,8 @@ jobs:
   test-others:
     needs: build-and-test-windows
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Download AGS 3 artifacts
         uses: actions/download-artifact@v4
@@ -213,7 +220,7 @@ jobs:
         run: echo '### Linux Test Summary AGS 3 (Software)' >> $GITHUB_STEP_SUMMARY
 
       - name: Linux Test Summary AGS 3 (Software)
-        uses: nikeee/tap-summary@dist
+        uses: nikeee/tap-summary@0c03eb5366ebea62488db9c55cb0ce0e3876f086 #dist
         with:
           path: "ags3-binaries/Linux/agstest-software.tap"
         if: always()
@@ -241,7 +248,7 @@ jobs:
         run: echo '### Linux Test Summary AGS 4 (Software)' >> $GITHUB_STEP_SUMMARY
 
       - name: Linux Test Summary AGS 4 (Software)
-        uses: nikeee/tap-summary@dist
+        uses: nikeee/tap-summary@0c03eb5366ebea62488db9c55cb0ce0e3876f086 #dist
         with:
           path: "ags4-binaries/Linux/agstest-software.tap"
         if: always()
