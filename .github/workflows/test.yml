@@ -180,16 +180,15 @@ jobs:
 
       - name: Create release and upload assets
         if: startsWith(github.ref, 'refs/tags/v')
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: |
-            ags3-auto-test.zip
-            ags3-auto-test-3.6.1.zip
-            ags3-auto-test-3.6.2.zip
-            ags4-auto-test.zip
-          allowUpdates: true
-          omitBodyDuringUpdate: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          gh release create "${{ github.ref_name }}" --verify-tag || true
+          gh release upload "${{ github.ref_name }}" \
+            ags3-auto-test.zip \
+            ags3-auto-test-3.6.1.zip \
+            ags3-auto-test-3.6.2.zip \
+            ags4-auto-test.zip \
+            --clobber
 
   test-others:
     needs: build-and-test-windows
