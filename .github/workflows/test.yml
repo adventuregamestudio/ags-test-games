@@ -229,7 +229,7 @@ jobs:
           cd ags3-binaries/Linux
           chmod +x ags3-auto-test data/ags*
           ./ags3-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          if exist data/agstest.tap mv data/agstest.tap agstest-software.tap
+          if [ -f data/agstest.tap ]; mv data/agstest.tap agstest-software.tap
 
       - name: Upload Linux AGS 3 Test Log
         uses: actions/upload-artifact@v4
@@ -251,7 +251,7 @@ jobs:
           cd ags4-binaries/Linux
           chmod +x ags4-auto-test data/ags*
           ./ags4-auto-test --no-message-box --gfxdriver software --log-stdout=script:info,main:info --user-data-dir .
-          if exist data/agstest.tap mv data/agstest.tap agstest-software.tap
+          if [ -f data/agstest.tap ]; mv data/agstest.tap agstest-software.tap
 
       - name: Upload Linux AGS 4 Test Log
         uses: actions/upload-artifact@v4
