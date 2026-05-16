@@ -232,7 +232,7 @@ jobs:
           if [ -f data/agstest.tap ]; mv data/agstest.tap agstest-software.tap
 
       - name: Upload Linux AGS 3 Test Log
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ags3-test-log-linux
           path: ags3-binaries/Linux/agstest*.tap
@@ -254,7 +254,7 @@ jobs:
           if [ -f data/agstest.tap ]; mv data/agstest.tap agstest-software.tap
 
       - name: Upload Linux AGS 4 Test Log
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ags4-test-log-linux
           path: ags4-binaries/Linux/agstest-*.tap
