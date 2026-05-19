@@ -283,6 +283,7 @@ jobs:
       - name: Create release and upload assets
         env:
           REF_NAME: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           gh release create "${REF_NAME}" --verify-tag || true
