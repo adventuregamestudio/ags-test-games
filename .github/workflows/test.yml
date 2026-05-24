@@ -286,10 +286,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
         shell: bash
         run: |
-          gh release create "${REF_NAME}" --verify-tag || true
+          if gh release view "${REF_NAME}" > /dev/null 2>&1; then
+            echo "Release ${REF_NAME} already exists, skipping creation."
+          else
+            gh release create "${REF_NAME}" --title "${REF_NAME}"
+          fi
+
           gh release upload "${REF_NAME}" \
             ags3-auto-test.zip \
             ags3-auto-test-3.6.1.zip \
             ags3-auto-test-3.6.2.zip \
-            ags4-auto-test.zip \
-            --clobber
+            ags4-auto-test.zip
