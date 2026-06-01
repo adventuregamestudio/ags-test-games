@@ -2136,8 +2136,15 @@ return
 @3
   DialogFlowTestStep++;
   tap.is_int(DialogFlowTestStep, 5, "Dialog Auto Flow: step 5");
+option-off 3
+option-on 4
   return 4;
 @4
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 8, "Dialog Auto Flow: step 8");
+  Dialog.Stop();
+return
+@5
 stop
 ]]></Script>
             <DialogOptions>
@@ -2163,6 +2170,12 @@ stop
                 <ID>4</ID>
                 <Say>False</Say>
                 <Show>False</Show>
+                <Text>dialog.stop</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Say>False</Say>
+                <Show>False</Show>
                 <Text xml:space="preserve">emergency stop</Text>
               </DialogOption>
             </DialogOptions>
@@ -2176,13 +2189,13 @@ stop
 return
 @1
   DialogFlowTestStep++;
-  tap.is_int(DialogFlowTestStep, 2, "Dialog Auto Flow: step 1");
+  tap.is_int(DialogFlowTestStep, 2, "Dialog Auto Flow: step 2");
 option-off 1
 option-on 2
 goto-previous
 @2
   DialogFlowTestStep++;
-  tap.is_int(DialogFlowTestStep, 4, "Dialog Auto Flow: step 1");
+  tap.is_int(DialogFlowTestStep, 4, "Dialog Auto Flow: step 4");
 option-off 2
 option-on 3
   return RUN_DIALOG_GOTO_PREVIOUS;
@@ -2191,9 +2204,15 @@ option-on 3
   tap.is_int(DialogFlowTestStep, 6, "Dialog Auto Flow: step 6");
 option-off 3
 option-on 4
-  Dialog.Stop();
+  dDialogAutoFlow2.Start();
 return
 @4
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 7, "Dialog Auto Flow: step 7");
+option-off 4
+option-on 5
+  return 3;
+@5
 stop
 ]]></Script>
             <DialogOptions>
@@ -2213,10 +2232,16 @@ stop
                 <ID>3</ID>
                 <Say>False</Say>
                 <Show>False</Show>
-                <Text>dialog.stop</Text>
+                <Text xml:space="preserve">dialog.start same dialog</Text>
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
+                <Say>False</Say>
+                <Show>False</Show>
+                <Text xml:space="preserve">goto using return after dialog.start</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
                 <Say>False</Say>
                 <Show>False</Show>
                 <Text xml:space="preserve">emergency stop</Text>
