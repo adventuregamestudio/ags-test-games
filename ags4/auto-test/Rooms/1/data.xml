@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Room Version="4.0.0.24">
+<Room Version="4.0.0.27">
   <BackgroundAnimationDelay>5</BackgroundAnimationDelay>
   <BackgroundAnimationEnabled>True</BackgroundAnimationEnabled>
   <BackgroundCount>1</BackgroundCount>
@@ -31,19 +31,22 @@
   <Objects>
     <RoomObject>
       <Baseline>0</Baseline>
-      <BaselineOverridden>False</BaselineOverridden>
       <BlendMode>Normal</BlendMode>
+      <BlockingRectangle>0,0,0,0</BlockingRectangle>
       <Clickable>True</Clickable>
       <Description />
-      <EffectiveBaseline>21</EffectiveBaseline>
       <Enabled>True</Enabled>
+      <GraphicAnchor>0, 1</GraphicAnchor>
+      <GraphicOffset>0,0</GraphicOffset>
       <Image>0</Image>
       <Name>oObjectZero</Name>
       <OnAnyClick />
       <OnFrameEvent />
       <Properties />
+      <Solid>False</Solid>
       <StartX>296</StartX>
       <StartY>21</StartY>
+      <Transparency>0</Transparency>
       <UseRoomAreaLighting>False</UseRoomAreaLighting>
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
@@ -51,19 +54,22 @@
     </RoomObject>
     <RoomObject>
       <Baseline>0</Baseline>
-      <BaselineOverridden>False</BaselineOverridden>
       <BlendMode>Normal</BlendMode>
+      <BlockingRectangle>0,0,0,0</BlockingRectangle>
       <Clickable>True</Clickable>
       <Description />
-      <EffectiveBaseline>21</EffectiveBaseline>
       <Enabled>True</Enabled>
+      <GraphicAnchor>0, 1</GraphicAnchor>
+      <GraphicOffset>0,0</GraphicOffset>
       <Image>0</Image>
       <Name>oObjectOne</Name>
       <OnAnyClick />
       <OnFrameEvent />
       <Properties />
+      <Solid>False</Solid>
       <StartX>306</StartX>
       <StartY>21</StartY>
+      <Transparency>0</Transparency>
       <UseRoomAreaLighting>False</UseRoomAreaLighting>
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
@@ -71,19 +77,22 @@
     </RoomObject>
     <RoomObject>
       <Baseline>0</Baseline>
-      <BaselineOverridden>False</BaselineOverridden>
       <BlendMode>Normal</BlendMode>
+      <BlockingRectangle>0,0,0,0</BlockingRectangle>
       <Clickable>True</Clickable>
       <Description />
-      <EffectiveBaseline>21</EffectiveBaseline>
       <Enabled>True</Enabled>
+      <GraphicAnchor>0, 1</GraphicAnchor>
+      <GraphicOffset>0,0</GraphicOffset>
       <Image>0</Image>
       <Name>oObjectTwo</Name>
       <OnAnyClick />
       <OnFrameEvent />
       <Properties />
+      <Solid>False</Solid>
       <StartX>316</StartX>
       <StartY>21</StartY>
+      <Transparency>0</Transparency>
       <UseRoomAreaLighting>False</UseRoomAreaLighting>
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
@@ -91,19 +100,22 @@
     </RoomObject>
     <RoomObject>
       <Baseline>0</Baseline>
-      <BaselineOverridden>False</BaselineOverridden>
       <BlendMode>Normal</BlendMode>
+      <BlockingRectangle>0,0,0,0</BlockingRectangle>
       <Clickable>True</Clickable>
       <Description />
-      <EffectiveBaseline>129</EffectiveBaseline>
       <Enabled>True</Enabled>
+      <GraphicAnchor>0, 1</GraphicAnchor>
+      <GraphicOffset>0,0</GraphicOffset>
       <Image>0</Image>
       <Name>oInteractive</Name>
       <OnAnyClick>oInteractive_AnyClick</OnAnyClick>
       <OnFrameEvent />
       <Properties />
+      <Solid>False</Solid>
       <StartX>28</StartX>
       <StartY>129</StartY>
+      <Transparency>0</Transparency>
       <UseRoomAreaLighting>False</UseRoomAreaLighting>
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
@@ -119,19 +131,22 @@
     </RoomObject>
     <RoomObject>
       <Baseline>0</Baseline>
-      <BaselineOverridden>False</BaselineOverridden>
       <BlendMode>Normal</BlendMode>
+      <BlockingRectangle>0,0,0,0</BlockingRectangle>
       <Clickable>True</Clickable>
       <Description />
-      <EffectiveBaseline>140</EffectiveBaseline>
       <Enabled>True</Enabled>
+      <GraphicAnchor>0, 1</GraphicAnchor>
+      <GraphicOffset>0,0</GraphicOffset>
       <Image>0</Image>
       <Name>oAnyClicker</Name>
       <OnAnyClick>oAnyClicker_AnyClick</OnAnyClick>
       <OnFrameEvent />
       <Properties />
+      <Solid>False</Solid>
       <StartX>31</StartX>
       <StartY>140</StartY>
+      <Transparency>0</Transparency>
       <UseRoomAreaLighting>False</UseRoomAreaLighting>
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
@@ -139,19 +154,22 @@
     </RoomObject>
     <RoomObject>
       <Baseline>0</Baseline>
-      <BaselineOverridden>False</BaselineOverridden>
       <BlendMode>Normal</BlendMode>
+      <BlockingRectangle>0,0,0,0</BlockingRectangle>
       <Clickable>True</Clickable>
       <Description />
-      <EffectiveBaseline>147</EffectiveBaseline>
       <Enabled>True</Enabled>
+      <GraphicAnchor>0, 1</GraphicAnchor>
+      <GraphicOffset>0,0</GraphicOffset>
       <Image>0</Image>
       <Name>oNoHandlers</Name>
       <OnAnyClick />
       <OnFrameEvent />
       <Properties />
+      <Solid>False</Solid>
       <StartX>38</StartX>
       <StartY>147</StartY>
+      <Transparency>0</Transparency>
       <UseRoomAreaLighting>False</UseRoomAreaLighting>
       <UseRoomAreaScaling>False</UseRoomAreaScaling>
       <Visible>True</Visible>
