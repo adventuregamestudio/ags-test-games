@@ -7247,6 +7247,30 @@ stop
                   </Script>
                 </ScriptAndHeader_Script>
               </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-savelist.ash</FileName>
+                    <Name>test-savelist</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>713953761</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-savelist.asc</FileName>
+                    <Name>test-savelist</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>713953761</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
             </ScriptAndHeaders>
           </ScriptFolder>
           <ScriptFolder Name="tests-engine">
