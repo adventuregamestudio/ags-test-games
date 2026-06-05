@@ -6842,6 +6842,30 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
+                    <FileName>test-utils.ash</FileName>
+                    <Name>test-utils</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>411272056</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-utils.asc</FileName>
+                    <Name>test-utils</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>411272056</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
                     <FileName>test-parser.ash</FileName>
                     <Name />
                     <Description />
@@ -7027,6 +7051,30 @@ stop
                     <Author />
                     <Version />
                     <Key>532671907</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-gui-operations.ash</FileName>
+                    <Name>test-gui-operations</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1369071738</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-gui-operations.asc</FileName>
+                    <Name>test-gui-operations</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1369071738</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
