@@ -221,8 +221,8 @@
       <Description />
       <Name>hInteractive</Name>
       <OnAnyClick>hInteractive_AnyClick</OnAnyClick>
-      <OnMouseMove />
-      <OnWalkOn />
+      <OnMouseMove>hInteractive_MouseMove</OnMouseMove>
+      <OnWalkOn>hInteractive_WalkOn</OnWalkOn>
       <Properties />
       <WalkToPoint>0,0</WalkToPoint>
       <Interactions Version="4.0.0.24">
