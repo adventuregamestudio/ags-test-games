@@ -6938,6 +6938,188 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>11</ID>
+            <Name>VFRAME_AUDIO</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>1</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>2</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>3</ID>
+                    <Image>0</Image>
+                    <Sound>2</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>4</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>5</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>6</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>7</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>8</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>9</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>10</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>11</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>12</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>13</ID>
+                    <Image>0</Image>
+                    <Sound>2</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>14</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>15</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>16</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
