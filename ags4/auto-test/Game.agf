@@ -665,6 +665,104 @@
               </GUITextWindowEdge>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0xFF545454</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BlendMode>Normal</BlendMode>
+              <BorderColor>0xFF00A800</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>50</Height>
+              <ID>3</ID>
+              <Left>0</Left>
+              <Name>gInventory</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Properties />
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>200</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIInventory>
+                <BackgroundColor>0x00000000</BackgroundColor>
+                <BlendMode>Normal</BlendMode>
+                <BorderColor>0x00000000</BorderColor>
+                <BorderWidth>1</BorderWidth>
+                <CharacterID>-1</CharacterID>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>40</Height>
+                <ID>0</ID>
+                <ItemHeight>20</ItemHeight>
+                <ItemWidth>30</ItemWidth>
+                <Left>5</Left>
+                <Locked>False</Locked>
+                <Name>InventoryWindow2</Name>
+                <PaddingX>0</PaddingX>
+                <PaddingY>0</PaddingY>
+                <Properties />
+                <ShowBorder>False</ShowBorder>
+                <SolidBackground>False</SolidBackground>
+                <Top>5</Top>
+                <Translated>True</Translated>
+                <Transparency>0</Transparency>
+                <Visible>True</Visible>
+                <Width>100</Width>
+                <ZOrder>0</ZOrder>
+              </GUIInventory>
+              <GUIButton>
+                <BackgroundColor>0xFFA8A8A8</BackgroundColor>
+                <BlendMode>Normal</BlendMode>
+                <BorderColor>0xFFFCFCFC</BorderColor>
+                <BorderShadeColor>0xFF545454</BorderShadeColor>
+                <BorderWidth>1</BorderWidth>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <ColorStyle>Default</ColorStyle>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>40</Height>
+                <ID>1</ID>
+                <Image>0</Image>
+                <Left>108</Left>
+                <Locked>False</Locked>
+                <MouseOverBackgroundColor>0x00000000</MouseOverBackgroundColor>
+                <MouseOverBorderColor>0x00000000</MouseOverBorderColor>
+                <MouseOverTextColor>0x00000000</MouseOverTextColor>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button3</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <OnFrameEvent />
+                <PaddingX>1</PaddingX>
+                <PaddingY>1</PaddingY>
+                <Properties />
+                <PushedBackgroundColor>0x00000000</PushedBackgroundColor>
+                <PushedBorderColor>0x00000000</PushedBorderColor>
+                <PushedImage>0</PushedImage>
+                <PushedTextColor>0x00000000</PushedTextColor>
+                <ShowBorder>True</ShowBorder>
+                <SolidBackground>True</SolidBackground>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0xFF000000</TextColor>
+                <TextOutlineColor>0</TextOutlineColor>
+                <Top>5</Top>
+                <Translated>True</Translated>
+                <Transparency>0</Transparency>
+                <Visible>True</Visible>
+                <Width>13</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -7123,6 +7221,54 @@ stop
                     <Author />
                     <Version />
                     <Key>191553042</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-hotspots.ash</FileName>
+                    <Name>test-hotspots</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>331644303</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-hotspots.asc</FileName>
+                    <Name>test-hotspots</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>331644303</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-regions.ash</FileName>
+                    <Name>test-regions</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1044233369</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-regions.asc</FileName>
+                    <Name>test-regions</Name>
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1044233369</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
