@@ -41,7 +41,7 @@
       <Image>0</Image>
       <Name>oObjectZero</Name>
       <OnAnyClick />
-      <OnFrameEvent />
+      <OnFrameEvent>oObjectZero_OnFrameEvent</OnFrameEvent>
       <Properties />
       <Solid>False</Solid>
       <StartX>296</StartX>

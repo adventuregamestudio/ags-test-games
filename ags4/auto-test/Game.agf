@@ -204,7 +204,7 @@
                 <Name>Button1</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick />
-                <OnFrameEvent />
+                <OnFrameEvent>Button1_OnFrameEvent</OnFrameEvent>
                 <PaddingX>1</PaddingX>
                 <PaddingY>1</PaddingY>
                 <Properties />
@@ -1383,7 +1383,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
             <OnAnyClick IsNull="True" />
-            <OnFrameEvent IsNull="True" />
+            <OnFrameEvent>cWalker1_OnFrameEvent</OnFrameEvent>
             <Properties />
             <RealName xml:space="preserve">New character</RealName>
             <ScriptModule>GlobalScript.asc</ScriptModule>
@@ -6958,7 +6958,7 @@ stop
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
-                    <EventName />
+                    <EventName>event1</EventName>
                     <Flip>None</Flip>
                     <ID>1</ID>
                     <Image>0</Image>
@@ -7028,7 +7028,7 @@ stop
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
-                    <EventName />
+                    <EventName>event2</EventName>
                     <Flip>None</Flip>
                     <ID>8</ID>
                     <Image>0</Image>
@@ -7088,7 +7088,7 @@ stop
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
-                    <EventName />
+                    <EventName>event3</EventName>
                     <Flip>None</Flip>
                     <ID>14</ID>
                     <Image>0</Image>
