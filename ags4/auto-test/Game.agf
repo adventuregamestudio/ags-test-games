@@ -862,6 +862,48 @@
             <ScriptModule>GlobalScript.asc</ScriptModule>
             <Interactions Version="4.0.0.24" />
           </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>7</ID>
+            <Image>0</Image>
+            <Name>iInvItemFour</Name>
+            <OnAnyClick />
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <Interactions Version="4.0.0.24" />
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>8</ID>
+            <Image>0</Image>
+            <Name>iInvItemFive</Name>
+            <OnAnyClick />
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <Interactions Version="4.0.0.24" />
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>9</ID>
+            <Image>0</Image>
+            <Name>iInvItemSix</Name>
+            <OnAnyClick />
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <ScriptModule>GlobalScript.asc</ScriptModule>
+            <Interactions Version="4.0.0.24" />
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
