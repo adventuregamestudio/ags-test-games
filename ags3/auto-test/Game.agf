@@ -77,7 +77,7 @@
       <SpeechStyle>Lucasarts</SpeechStyle>
       <SplitResources>0</SplitResources>
       <SpriteAlphaStyle>Improved</SpriteAlphaStyle>
-      <TextBoxKeyClaimStyle>Always</TextBoxKeyClaimStyle>
+      <TextBoxKeyClaimStyle>All</TextBoxKeyClaimStyle>
       <TextWindowGUI>0</TextWindowGUI>
       <ThoughtGUI>0</ThoughtGUI>
       <TranslateTextParser>False</TranslateTextParser>
