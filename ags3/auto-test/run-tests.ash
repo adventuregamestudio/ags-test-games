@@ -16,5 +16,6 @@ import void RunStage1Tests();
 #define STAGE1_DELAYED_GROUP_DIALOGCUSTOMOPTIONS 2
 #define STAGE1_DELAYED_GROUP_SAVELISTS    3
 #define STAGE1_DELAYED_GROUP_DIALOGFLOW   4
+#define STAGE1_DELAYED_GROUP_INPUTCONTROLS 5
 import int  RunStage1DelayedTests(int test_group, int test_counter);
 import void RunStage2Tests();

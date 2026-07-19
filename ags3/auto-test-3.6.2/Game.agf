@@ -2715,6 +2715,27 @@ stop
           <Name>DialogFlowTestStep</Name>
           <Type>int</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>LastKey</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>LastMouseButton</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>LastMod</Name>
+          <Type>int</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -6713,6 +6734,30 @@ stop
                     <Author />
                     <Version />
                     <Key>1014915462</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-inputcontrols.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>16499683</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-inputcontrols.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>16499683</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
