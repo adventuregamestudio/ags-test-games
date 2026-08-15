@@ -4979,29 +4979,29 @@ stop
               </ScriptAndHeader>
             </ScriptAndHeaders>
           </ScriptFolder>
-          <ScriptFolder Name="tests">
+          <ScriptFolder Name="tests-stage1">
             <SubFolders />
             <ScriptAndHeaders>
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-string.ash</FileName>
+                    <FileName>test-audio.ash</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>297075205</Key>
+                    <Key>1148393309</Key>
                     <IsHeader>True</IsHeader>
                   </Script>
                 </ScriptAndHeader_Header>
                 <ScriptAndHeader_Script>
                   <Script>
-                    <FileName>test-string.asc</FileName>
+                    <FileName>test-audio.asc</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>297075205</Key>
+                    <Key>1148393309</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5009,23 +5009,23 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-maths.ash</FileName>
+                    <FileName>test-characters.ash</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>73152607</Key>
+                    <Key>1975999649</Key>
                     <IsHeader>True</IsHeader>
                   </Script>
                 </ScriptAndHeader_Header>
                 <ScriptAndHeader_Script>
                   <Script>
-                    <FileName>test-maths.asc</FileName>
+                    <FileName>test-characters.asc</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>73152607</Key>
+                    <Key>1975999649</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5033,23 +5033,23 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-set.ash</FileName>
+                    <FileName>test-dialog-props.ash</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1858144846</Key>
+                    <Key>1136985286</Key>
                     <IsHeader>True</IsHeader>
                   </Script>
                 </ScriptAndHeader_Header>
                 <ScriptAndHeader_Script>
                   <Script>
-                    <FileName>test-set.asc</FileName>
+                    <FileName>test-dialog-props.asc</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1858144846</Key>
+                    <Key>1136985286</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5081,54 +5081,6 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-parser.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>654987384</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>test-parser.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>654987384</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>test-file.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1416748471</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>test-file.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1416748471</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
                     <FileName>test-drawingsurface.ash</FileName>
                     <Name />
                     <Description />
@@ -5153,23 +5105,23 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-objectaccess.ash</FileName>
+                    <FileName>test-enginerender.ash</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1220263199</Key>
+                    <Key>751248376</Key>
                     <IsHeader>True</IsHeader>
                   </Script>
                 </ScriptAndHeader_Header>
                 <ScriptAndHeader_Script>
                   <Script>
-                    <FileName>test-objectaccess.asc</FileName>
+                    <FileName>test-enginerender.asc</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1220263199</Key>
+                    <Key>751248376</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5177,23 +5129,23 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-dialog-props.ash</FileName>
+                    <FileName>test-file.ash</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1136985286</Key>
+                    <Key>1416748471</Key>
                     <IsHeader>True</IsHeader>
                   </Script>
                 </ScriptAndHeader_Header>
                 <ScriptAndHeader_Script>
                   <Script>
-                    <FileName>test-dialog-props.asc</FileName>
+                    <FileName>test-file.asc</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1136985286</Key>
+                    <Key>1416748471</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5249,6 +5201,30 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
+                    <FileName>test-maths.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>73152607</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-maths.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>73152607</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
                     <FileName>test-misc.ash</FileName>
                     <Name />
                     <Description />
@@ -5266,6 +5242,30 @@ stop
                     <Author />
                     <Version />
                     <Key>191553042</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-objectaccess.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1220263199</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-objectaccess.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1220263199</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5297,30 +5297,6 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>test-characters.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1975999649</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>test-characters.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1975999649</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
                     <FileName>test-overlays.ash</FileName>
                     <Name />
                     <Description />
@@ -5338,6 +5314,78 @@ stop
                     <Author />
                     <Version />
                     <Key>1686005221</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-parser.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>654987384</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-parser.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>654987384</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-set.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1858144846</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-set.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1858144846</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-string.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>297075205</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-string.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>297075205</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5366,6 +5414,11 @@ stop
                   </Script>
                 </ScriptAndHeader_Script>
               </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
+          <ScriptFolder Name="tests-stage1-delayed">
+            <SubFolders />
+            <ScriptAndHeaders>
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
@@ -5393,6 +5446,35 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
+                    <FileName>test-gui-looks-delayed.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1964703743</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-gui-looks-delayed.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1964703743</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
+          <ScriptFolder Name="tests-stage2">
+            <SubFolders />
+            <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
                     <FileName>test-pathfinding.ash</FileName>
                     <Name />
                     <Description />
@@ -5410,59 +5492,6 @@ stop
                     <Author />
                     <Version />
                     <Key>2014667470</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>test-audio.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1148393309</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>test-audio.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1148393309</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-            </ScriptAndHeaders>
-          </ScriptFolder>
-          <ScriptFolder Name="tests-engine">
-            <SubFolders />
-            <ScriptAndHeaders>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>test-enginerender.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>751248376</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>test-enginerender.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>751248376</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>

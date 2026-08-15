@@ -1,4 +1,7 @@
 // Test GUI Looks Module Header
 import void TestGUILooks();
 import int GetTestGUILooksCount();
-import int TestGUILooksDelayed(int counter);
+
+// Helper functions for use between test stages
+import void PrepareParentGUI();
+import void PrepareDefaultButton(Button* btn);
