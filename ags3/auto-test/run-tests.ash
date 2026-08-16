@@ -19,3 +19,4 @@ import void RunStage1Tests();
 #define STAGE1_DELAYED_GROUP_INPUTCONTROLS 5
 import int  RunStage1DelayedTests(int test_group, int test_counter);
 import void RunStage2Tests();
+import void RunStage3Tests();

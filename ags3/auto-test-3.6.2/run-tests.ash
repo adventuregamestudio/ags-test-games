@@ -13,3 +13,4 @@ import void RunStage1Tests();
 // So total counter increments = number of test cases * 2.
 import int  RunStage1DelayedTests(int test_group, int test_counter);
 import void RunStage2Tests();
+import void RunStage3Tests();
