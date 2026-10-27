@@ -3562,6 +3562,107 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="SpeechTests">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="64" Width="200" Height="25" ColorDepth="32" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/SpeechTests/speech_la.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>25</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+              <Sprite Slot="65" Width="90" Height="61" ColorDepth="32" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/SpeechTests/speech_la2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>61</ImportHeight>
+                  <ImportWidth>90</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+              <Sprite Slot="66" Width="150" Height="34" ColorDepth="32" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/SpeechTests/speech_bg.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>34</ImportHeight>
+                  <ImportWidth>150</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="247" Height="41" ColorDepth="32" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/SpeechTests/speech_sb.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>41</ImportHeight>
+                  <ImportWidth>247</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="92" Height="104" ColorDepth="32" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/SpeechTests/speech_sb2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>104</ImportHeight>
+                  <ImportWidth>92</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="16" Height="16" ColorDepth="32" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/SpeechTests/portrait-v.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportColorDepth>GameDefault</ImportColorDepth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" AlphaChannel="False">
@@ -7482,6 +7583,28 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>13</ID>
+            <Name>VPORTRAIT</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <EventName />
+                    <Flip>None</Flip>
+                    <ID>0</ID>
+                    <Image>69</Image>
+                    <Sound>0</Sound>
+                    <XOffset>0</XOffset>
+                    <YOffset>0</YOffset>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -8093,6 +8216,30 @@ stop
                     <Author />
                     <Version />
                     <Key>297075205</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>test-speech.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>199710981</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>test-speech.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>199710981</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
