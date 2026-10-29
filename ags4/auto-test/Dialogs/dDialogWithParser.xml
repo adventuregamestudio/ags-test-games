@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog Version="4.0.0.33">
+  <ID>1</ID>
+  <ScriptName>dDialogWithParser</ScriptName>
+  <ShowTextParser>True</ShowTextParser>
+  <DialogOptions>
+    <DialogOption>
+      <ID>1</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 1</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>2</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 2</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>3</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 3</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>4</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 4</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>5</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 5</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>6</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 6</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>7</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 7</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>8</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 8</Text>
+    </DialogOption>
+  </DialogOptions>
+</Dialog>

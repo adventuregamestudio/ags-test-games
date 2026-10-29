@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog Version="4.0.0.33">
+  <ID>4</ID>
+  <ScriptName>dDialogAutoFlow2</ScriptName>
+  <ShowTextParser>False</ShowTextParser>
+  <DialogOptions>
+    <DialogOption>
+      <ID>1</ID>
+      <Say>False</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">goto previous</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>2</ID>
+      <Say>False</Say>
+      <Show>False</Show>
+      <Text xml:space="preserve">goto previous using return</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>3</ID>
+      <Say>False</Say>
+      <Show>False</Show>
+      <Text xml:space="preserve">dialog.start same dialog</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>4</ID>
+      <Say>False</Say>
+      <Show>False</Show>
+      <Text xml:space="preserve">goto using return after dialog.start</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>5</ID>
+      <Say>False</Say>
+      <Show>False</Show>
+      <Text xml:space="preserve">emergency stop</Text>
+    </DialogOption>
+  </DialogOptions>
+</Dialog>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog Version="4.0.0.33">
+  <ID>0</ID>
+  <ScriptName>dDialog1</ScriptName>
+  <ShowTextParser>False</ShowTextParser>
+  <DialogOptions>
+    <DialogOption>
+      <ID>1</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 1</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>2</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 2</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>3</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 3</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>4</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 4</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>5</ID>
+      <Say>True</Say>
+      <Show>True</Show>
+      <Text xml:space="preserve">option 5</Text>
+    </DialogOption>
+  </DialogOptions>
+</Dialog>

@@ -1,0 +1,9 @@
+// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+stop
+@2
+stop
+@3
+stop

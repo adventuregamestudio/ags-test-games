@@ -1,0 +1,29 @@
+// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 1, "Dialog Auto Flow: step 1");
+option-off 1
+option-on 2
+goto-dialog 4
+@2
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 3, "Dialog Auto Flow: step 3");
+option-off 2
+option-on 3
+  dDialogAutoFlow2.Start();
+return
+@3
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 5, "Dialog Auto Flow: step 5");
+option-off 3
+option-on 4
+  return 4;
+@4
+  DialogFlowTestStep++;
+  tap.is_int(DialogFlowTestStep, 8, "Dialog Auto Flow: step 8");
+  Dialog.Stop();
+return
+@5
+stop

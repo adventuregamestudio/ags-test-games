@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog Version="4.0.0.33">
+  <ID>2</ID>
+  <ScriptName>dDialogStop</ScriptName>
+  <ShowTextParser>False</ShowTextParser>
+  <DialogOptions>
+    <DialogOption>
+      <ID>1</ID>
+      <Say>False</Say>
+      <Show>True</Show>
+      <Text>STOP</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>2</ID>
+      <Say>False</Say>
+      <Show>True</Show>
+      <Text>STOP</Text>
+    </DialogOption>
+    <DialogOption>
+      <ID>3</ID>
+      <Say>False</Say>
+      <Show>True</Show>
+      <Text>STOP</Text>
+    </DialogOption>
+  </DialogOptions>
+</Dialog>
