@@ -29,6 +29,8 @@ backup_acsprset.spr
 game28.dta
 # temporary build of the game before being moved to Compiled/ folder
 *.exe
+# room output files (not part of the source in AGS 4)
+room*.crm
 
  # Log files
 warnings.log

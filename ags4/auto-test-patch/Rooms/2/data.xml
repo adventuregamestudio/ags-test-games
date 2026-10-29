@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room Version="4.0.0.27">
+  <BackgroundAnimationDelay>5</BackgroundAnimationDelay>
+  <BackgroundAnimationEnabled>True</BackgroundAnimationEnabled>
+  <BackgroundCount>1</BackgroundCount>
+  <BottomEdgeY>199</BottomEdgeY>
+  <ColorDepth>32</ColorDepth>
+  <Description xml:space="preserve">run test stage 2</Description>
+  <FaceDirectionRatio>0</FaceDirectionRatio>
+  <GameID>397687</GameID>
+  <Height>200</Height>
+  <LeftEdgeX>0</LeftEdgeX>
+  <MaskResolution>1</MaskResolution>
+  <Number>2</Number>
+  <OnAfterFadeIn>room_AfterFadeIn</OnAfterFadeIn>
+  <OnFirstTimeEnter />
+  <OnLeave />
+  <OnLeaveBottom />
+  <OnLeaveLeft />
+  <OnLeaveRight />
+  <OnLeaveTop />
+  <OnLoad />
+  <OnRepExec />
+  <OnUnload />
+  <PlayerCharacterView>0</PlayerCharacterView>
+  <Properties />
+  <RightEdgeX>319</RightEdgeX>
+  <ShowPlayerCharacter>True</ShowPlayerCharacter>
+  <TopEdgeY>0</TopEdgeY>
+  <Width>320</Width>
+  <Objects />
+  <Hotspots>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description />
+      <Name />
+      <OnAnyClick />
+      <OnMouseMove />
+      <OnWalkOn />
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions Version="4.0.0.24" />
+    </RoomHotspot>
+  </Hotspots>
+  <WalkableAreas>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <Properties />
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+  </WalkableAreas>
+  <WalkBehinds>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+  </WalkBehinds>
+  <Regions>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <OnStanding />
+      <OnWalksOff />
+      <OnWalksOnto />
+      <Properties />
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+    </RoomRegion>
+  </Regions>
+</Room>
