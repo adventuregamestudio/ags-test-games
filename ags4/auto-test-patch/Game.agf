@@ -14,7 +14,7 @@
       <AudioIndexer>4</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
-      <BuildTargets />
+      <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>Deflate</CompressSpritesType>
@@ -38,8 +38,8 @@
       <GUIDAsString>{b38fb5a0-fff0-45fe-9701-71453b89bbcb}</GUIDAsString>
       <GUIHandleOnlyLeftMouseButton>False</GUIHandleOnlyLeftMouseButton>
       <GameFPS>60</GameFPS>
-      <GameFileName>ags4-auto-test</GameFileName>
-      <GameName>ags4-auto-test</GameName>
+      <GameFileName>ags4-auto-test-patch</GameFileName>
+      <GameName>ags4-auto-test-patch</GameName>
       <GameTextEncoding>utf-8</GameTextEncoding>
       <GameTextLanguage>en_US</GameTextLanguage>
       <Genre>Adventure</Genre>
