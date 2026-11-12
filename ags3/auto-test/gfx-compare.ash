@@ -2,6 +2,9 @@
 
 struct GfxComparer
 {
+  // Allow pixel mismatch within -1/+1 range
+  import static attribute bool OnePixelLeeway;
+  
   import static bool MatchSprites(int sprite1, int sprite2);
   import static bool MatchSurfaceRects(DrawingSurface *test_ds, DrawingSurface *match_ds, 
     int rx, int ry, int rw, int rh);
